@@ -18,7 +18,6 @@
 ![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![NumPy](https://img.shields.io/badge/numpy-required-orange.svg)
 ![Matplotlib](https://img.shields.io/badge/matplotlib-required-green.svg)
-![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
 </div>
 
