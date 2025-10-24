@@ -13,7 +13,7 @@
 ╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝
 ```
 
-*ระบบตรวจจับและวิเคราะห์วัตถุอันตรายใกล้โลก*
+*ระบบตรรกะการสกัดกั้นวงโคจรใกล้โลกและระนาบสุริยวิถี*
 
 ![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![NumPy](https://img.shields.io/badge/numpy-required-orange.svg)
