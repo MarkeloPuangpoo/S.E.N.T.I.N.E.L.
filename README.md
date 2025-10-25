@@ -2,7 +2,7 @@
 
 **System for Ecliptic & Near-Earth Trajectory Intercept Logic**
 
-\<div align="center"\>
+<div align="center">
 
 ```
 ███████╗███████╗███╗   ██╗████████╗██╗███╗   ██╗███████╗██╗     
@@ -17,9 +17,8 @@
 
 *ระบบตรรกะการสกัดกั้นวงโคจรใกล้โลกและระนาบสุริยวิถี*
 
-\</div\>
+ </div>
 
------
 
 ## 📡 ภาพรวมระบบ
 
@@ -43,7 +42,6 @@
 
 *(**คำแนะนำ:** คุณต้องอัปโหลดภาพของคุณเอง (เช่น ใน imgur.com) แล้วเอาลิงก์มาใส่แทนที่ URL ด้านบน)*
 
------
 
 ## 🚀 การติดตั้ง
 
@@ -83,7 +81,6 @@ PyVista  <-- (ใหม่!)
 
     *(ครั้งแรกที่รัน Skyfield จะดาวน์โหลดไฟล์ `de421.bsp` (ประมาณ 17MB) โดยอัตโนมัติ ต้องใช้อินเทอร์เน็ต)*
 
------
 
 ## 💻 วิธีการใช้งาน (v4.6)
 
@@ -98,13 +95,11 @@ PyVista  <-- (ใหม่!)
 [ OK         ] Timescale initialized.
 ...AWAITING COMMAND.
 
---- [ACQUIRING TARGET] ---
 
 INPUT TARGET DESIGNATION: 2025 UG4
   > INPUT TARGET MASS (kg) [DEFAULT 1e10]: 1e10
   > INPUT PLOT TAG (e.g., red, cyan): red
 
---- [AWAITING ORBITAL TELEMETRY (3D)] ---
 (All angles in DEGREES, distances in AU)
   > q (Perihelion distance) (AU): 0.52456
   > e (Eccentricity): 0.80712
@@ -112,7 +107,6 @@ INPUT TARGET DESIGNATION: 2025 UG4
   > node (Long. of Asc. Node) (deg): 26.701
   > peri (Argument of Perihelion) (deg): 100.497
   > M (Mean Anomaly at Epoch) (deg): 349.468
---- [TELEMETRY RECEIVED] ---
 
 ... [STATE VECTORS LOCKED (T=NOW)] ...
 [ LOCKED     ] Calculated Semi-major (a): 2.7231 AU
@@ -147,7 +141,6 @@ INPUT SIMULATION DURATION (YEARS): 10
 2.  ค้นหาวัตถุ (เช่น `Bennu` หรือ `(2025 UG4)`)
 3.  ดูที่ตาราง **"Orbital Elements"** และป้อนค่า `e`, `q`, `i`, `node` (RAAN), `peri` (arg of peri), `M`
 
------
 
 ## 📊 การแปลผลลัพธ์ (PyVista 3D)
 
@@ -160,10 +153,8 @@ INPUT SIMULATION DURATION (YEARS): 10
 ### 2\. รายงานการประเมินภัย (3D)
 
 ```
---- [IMPACT HAZARD ASSESSMENT]: 2025 UG4 ---
 Simulation Result: [NO IMPACT DETECTED] (Within 10yr window)
 
---- [CLOSEST POINT OF APPROACH (CPA) LOG] ---
   > Min. Distance (MOID): 1,234,567.8 km
   > (Equiv. 0.008253 AU)
   > (Equiv. 3.21 Lunar Distances [LD])
@@ -175,7 +166,6 @@ Simulation Result: [NO IMPACT DETECTED] (Within 10yr window)
 ### 3\. การตรวจสอบความถูกต้อง (3D)
 
 ```
---- [STATE VECTOR ANALYSIS]: 2025 UG4 ---
   > Semi-major axis (a): 2.7231 AU
   > Eccentricity (e):    0.8071
   > Inclination (i):     10.6330 deg
@@ -185,7 +175,6 @@ Simulation Result: [NO IMPACT DETECTED] (Within 10yr window)
 
   - ค่าเหล่านี้ ณ **สิ้นสุด** การจำลอง ควรใกล้เคียงกับค่าเริ่มต้น หากเบี่ยงเบนมาก อาจเกิดจากความคลาดเคลื่อนสะสม (ลองลด `dt`) หรือวัตถุถูกแรงรบกวนมาก
 
------
 
 ## 🔬 หลักการทางฟิสิกส์ (v4.6)
 
@@ -216,7 +205,6 @@ Simulation Result: [NO IMPACT DETECTED] (Within 10yr window)
     r(t+Δt) = r(t) + v(t+Δt)·Δt
     ```
 
------
 
 ## ⚙️ การปรับแต่งขั้นสูง
 
@@ -253,7 +241,6 @@ mars_body = CelestialBody(
 bodies.append(mars_body)
 ```
 
------
 
 ## 🐛 การแก้ปัญหา
 
@@ -278,7 +265,6 @@ bodies.append(mars_body)
   - ตรวจสอบ Error message ในเทอร์มินัล อาจบอกสาเหตุได้
   - ลองอัปเดตไดรเวอร์การ์ดจอ
 
------
 
 ## 📚 ข้อมูลอ้างอิง
 
@@ -287,7 +273,6 @@ bodies.append(mars_body)
   - **PyVista Documentation**: [https://docs.pyvista.org/](https://docs.pyvista.org/)
   - **Skyfield Documentation**: [https://rhodesmill.org/skyfield/](https://rhodesmill.org/skyfield/)
 
------
 
 ## 🤝 การมีส่วนร่วม
 
@@ -299,13 +284,11 @@ bodies.append(mars_body)
 4.  Push ไปยัง Branch (`git push origin feature/CoolFeature`)
 5.  เปิด Pull Request
 
------
 
 ## ⚖️ License
 
 Pondet Puangpoo
 
------
 
 ## 🙏 กิตติกรรมประกาศ
 
@@ -317,20 +300,17 @@ Pondet Puangpoo
   - ทีมพัฒนา Skyfield และ PyVista สำหรับ Library ที่ยอดเยี่ยม
   - ชุมชน Python และ NumPy
 
------
 
 ## 📞 ติดต่อ
 
   - **Email**: puangpoo.colamark@gmail.com
 
------
 
 \<div align="center"\>
 
 ```
 "Through simulation, we glimpse the cosmic ballet."
 
---- S.E.N.T.I.N.E.L. Project
 ```
 
 **⭐ Star โปรเจกต์นี้ถ้าคุณชอบ\!**
