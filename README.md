@@ -1,5 +1,14 @@
 # S.E.N.T.I.N.E.L. (v4.6 - PyVista Stable)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/numpy-required-orange.svg" alt="NumPy">
+  <img src="https://img.shields.io/badge/matplotlib-required-green.svg" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/skyfield-required-blue.svg" alt="Skyfield">
+  <img src="https://img.shields.io/badge/pyvista-required-blue.svg" alt="PyVista">
+  <img src="https://img.shields.io/github/stars/MarkeloPuangpoo/S.E.N.T.I.N.E.L.?style=social" alt="GitHub stars">
+</p>
+
 **System for Ecliptic & Near-Earth Trajectory Intercept Logic**
 
 <div align="center">
@@ -306,7 +315,7 @@ Pondet Puangpoo
   - **Email**: puangpoo.colamark@gmail.com
 
 
-\<div align="center"\>
+<div align="center">
 
 ```
 "Through simulation, we glimpse the cosmic ballet."
@@ -315,4 +324,4 @@ Pondet Puangpoo
 
 **⭐ Star โปรเจกต์นี้ถ้าคุณชอบ\!**
 
-\</div\>
+</div>
